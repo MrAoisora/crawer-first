@@ -28,3 +28,4 @@ function isInTime(beginTimeParam, endTimeParam) {
     }
     return true;
 }
+

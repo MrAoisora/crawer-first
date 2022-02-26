@@ -1,0 +1,1 @@
+注意1.vue和elementui结合，elementui需要放在受vue控制的视图中，否则ui效果不会起作用的

@@ -6,8 +6,16 @@
     <title>这是个测试前端脚本的测试网页</title>
     <script src="js_my/common/DateCommon.js"></script>
 </head>
+<script>
+    function testParent(){
+        alert("我是测试跨域问题的方法!")
+    }
+</script>
 <body>
 <button onclick="isInTime('07:30','19:30')">点击测试</button>
-<h1>hello</h1>
+<iframe width="500" height="500" src="test_parent.html">
+
+</iframe>
+
 </body>
 </html>

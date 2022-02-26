@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试不同框架之间的js对象跨域</title>
+</head>
+<script>
+    function iframetestparent(){
+        parent.testParent();
+    }
+</script>
+<body>
+<iframe src="http://www.bilibili.com" height="500px" width="800px"></iframe>
+<button onclick="iframetestparent()" >点击测试跨域问题</button>
+</body>
+</html>
